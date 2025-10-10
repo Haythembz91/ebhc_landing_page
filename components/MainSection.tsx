@@ -25,7 +25,7 @@ const MainSection = () => {
         },
         {
             text:'Assurez la durabilité et la sécurité de vos bâtiments grâce à nos solutions d’étanchéité professionnelles. Nous intervenons rapidement pour protéger vos toitures, terrasses, façades et fondations contre les infiltrations d’eau, l’humidité et les dommages structurels.',
-            icon:null,
+            icon:'https://res.cloudinary.com/dmgfsayir/image/upload/v1760110821/waterproof_wztwnx.png',
             imageUrl:'https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/2_syma27.jpg'
         },
         {
