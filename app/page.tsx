@@ -1,5 +1,5 @@
 import Carousel from "@/components/Carousel"
-import FadeUpOnScroll from "@/components/FadeUpOnScroll"
+import Contact from "@/components/Contact"
 import MainSection from "@/components/MainSection"
 import References from "@/components/References"
 
@@ -9,9 +9,8 @@ const Home = ()=>{
         <main className="">
             <Carousel></Carousel>
             <MainSection></MainSection>
-            <FadeUpOnScroll>
-                <References></References>
-            </FadeUpOnScroll>
+            <References></References>
+            <Contact></Contact>
         </main>
     )
 }

@@ -36,7 +36,7 @@ const MainSection = () => {
         ]
 
     return(
-        <section className="m-5">
+        <section id="services" className="m-5">
             <FadeUpOnScroll>
                 <div className="py-6 lg:grid lg:grid-cols-2" style={{fontFamily:'roboto'}}>
                     <div className="m-auto lg:w-3/4">
@@ -52,9 +52,10 @@ const MainSection = () => {
                             <li>Devis gratuit et personnalisé</li>
                         </ul>
                     </div>
-                    <img src={'https://res.cloudinary.com/dmgfsayir/image/upload/v1759972470/3_dngn0c.jpg'}></img>
+                    <img className="mx-auto" src={'https://res.cloudinary.com/dmgfsayir/image/upload/v1759798025/logo-modified_g9f8cq.png'}></img>
                 </div>
             </FadeUpOnScroll>
+            <h1 style={{fontFamily:'roboto'}} className="text-5xl text-center font-bold p-3">NOS SERVICES</h1>
             {services.map((service,index)=>{
                 return(
                     <FadeUpOnScroll key={index}>
@@ -65,7 +66,7 @@ const MainSection = () => {
                                 {service.text}
                             </p>
                             </div>
-                            <img alt={'image'+index} src={service.imageUrl}></img>
+                            <img className="rounded-3xl" alt={'image'+index} src={service.imageUrl}></img>
                         </div>
                     </FadeUpOnScroll>
                 )
