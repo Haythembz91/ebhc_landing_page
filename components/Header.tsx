@@ -27,9 +27,9 @@ const Header = ()=>{
                     <ul className="flex flex-col space-x-4 space-y-3 font-bold">
                         <li><a onClick={()=>setShowMenu(false)} className="hover:underline" href="#">ACCEUIL</a></li>
                         <li><a onClick={()=>setShowMenu(false)} className="hover:underline" href="#">À PROPOS</a></li>
-                        <li><a onClick={()=>setShowMenu(false)} className="hover:underline" href="#">NOS SERVICES</a></li>
-                        <li><a onClick={()=>setShowMenu(false)} className="hover:underline" href="#">RÉFÉRENCES</a></li>
-                        <li><a onClick={()=>setShowMenu(false)} className="hover:underline" href="#">CONTACT</a></li>
+                        <li><a onClick={()=>setShowMenu(false)} className="hover:underline" href="#services">NOS SERVICES</a></li>
+                        <li><a onClick={()=>setShowMenu(false)} className="hover:underline" href="#references">RÉFÉRENCES</a></li>
+                        <li><a onClick={()=>setShowMenu(false)} className="hover:underline" href="#contact">CONTACT</a></li>
                     </ul>
                 </div>}
         </header>
