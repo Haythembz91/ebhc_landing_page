@@ -37,8 +37,7 @@ const MainSection = () => {
 
     return(
         <section id="services" className="m-5">
-            <FadeUpOnScroll>
-                <div className="py-6 lg:grid lg:grid-cols-2" style={{fontFamily:'roboto'}}>
+            <div className="py-6 lg:grid lg:grid-cols-2" style={{fontFamily:'roboto'}}>
                     <div className="m-auto lg:w-3/4">
                         <p className="text-2xl font-bold p-2">
                         Pourquoi choisir EBHC ?
@@ -53,8 +52,7 @@ const MainSection = () => {
                         </ul>
                     </div>
                     <img className="mx-auto" src={'https://res.cloudinary.com/dmgfsayir/image/upload/v1759798025/logo-modified_g9f8cq.png'}></img>
-                </div>
-            </FadeUpOnScroll>
+            </div>
             <h1 style={{fontFamily:'roboto'}} className="text-5xl text-center font-bold p-3">NOS SERVICES</h1>
             {services.map((service,index)=>{
                 return(

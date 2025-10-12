@@ -20,7 +20,7 @@ export async function POST(req:NextRequest){
     if([...formData].length === 0){
         return NextResponse.json({error:"Empty form data"})
     }
-    for(let [key,value] of formData){
+    for(const [key,value] of formData){
         if(!value){
             return NextResponse.json({error:`${key} is required`},{status:422})
         }
