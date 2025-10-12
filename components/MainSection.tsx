@@ -86,7 +86,7 @@ const MainSection = () => {
             {services.map((service,index)=>{
                 return(
                     <FadeUpOnScroll key={index}>
-                        <div className="py-6 lg:grid lg:grid-cols-2" style={{fontFamily:'roboto'}}>
+                        <div className="py-6 lg:grid lg:grid-cols-2 border-b border-gray-400" style={{fontFamily:'roboto'}}>
                             <div className="m-auto lg:w-3/4">
                                 <div className="flex justify-center">
                                     <img className="w-10" src={service.icon} alt={"icon"+index}></img>

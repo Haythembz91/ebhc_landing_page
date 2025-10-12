@@ -1,6 +1,12 @@
 'use client'
 import { ImSpinner2 } from "react-icons/im"
 import { FormEvent, useState, useRef } from "react"
+
+
+function validateEmail(email:string) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+}
 const Contact = ()=>{
 
 
@@ -14,6 +20,11 @@ const Contact = ()=>{
         setError('')
         setSuccess('')
         const formData = new FormData(e.currentTarget)
+        if(!validateEmail(formData.get('email') as string)){
+            setError('Invalid email')
+            setIsSending(false)
+            return
+        }
         try{
             const response = await fetch('/api/contact',{
                 method:'POST',
@@ -43,7 +54,7 @@ const Contact = ()=>{
                     <div className="mt-3">
                         <label htmlFor="name">Nom:</label>
                         <div className="mt-2">
-                            <input className="outline-black outline-1 rounded-md focus:outline-2 focus:outline-amber-500 w-full p-2 shadow-md " type="text" placeholder="Votre nom" id="name" name="name"  />
+                            <input className="outline-black outline-1 rounded-md focus:outline-2 focus:outline-amber-500 w-full p-2 shadow-md " type="text" placeholder="Votre nom" id="name" name="name" required />
                         </div>
                     </div>
                     <div className="mt-3">

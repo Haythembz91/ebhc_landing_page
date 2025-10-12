@@ -8,7 +8,7 @@ const References = () => {
         'https://res.cloudinary.com/dmgfsayir/image/upload/v1760147939/WhatsApp_Image_2025-10-07_%C3%A0_14.39.56_b0754ef6_ivicqa.jpg'
     ]
     return (
-        <section id="references">
+        <section id="references" className="border-b border-gray-400 m-5">
             <h1 style={{fontFamily:'roboto'}} className="text-3xl lg:text-5xl font-bold text-center">RÉFÉRENCES</h1>
             <div className="grid grid-cols-3 gap-4 place-items-center mt-3">
                 {refs.map((ref,index) => {
