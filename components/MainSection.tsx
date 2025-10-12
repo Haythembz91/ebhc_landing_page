@@ -60,7 +60,7 @@ const MainSection = () => {
                     </div>
                     <img className="mx-auto" src={'https://res.cloudinary.com/dmgfsayir/image/upload/v1759798025/logo-modified_g9f8cq.png'}></img>
             </div>
-            <h1 style={{fontFamily:'roboto'}} className="text-5xl text-center font-bold p-3">NOS SERVICES</h1>
+            <h1 style={{fontFamily:'roboto'}} className="text-3xl lg:text-5xl text-center font-bold p-3">NOS SERVICES</h1>
             {services.map((service,index)=>{
                 return(
                     <FadeUpOnScroll key={index}>

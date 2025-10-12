@@ -9,8 +9,8 @@ const References = () => {
     ]
     return (
         <section id="references">
-            <h1 style={{fontFamily:'roboto'}} className="text-5xl font-bold text-center">RÉFÉRENCES</h1>
-            <div className="grid grid-cols-3 gap-4 place-items-center">
+            <h1 style={{fontFamily:'roboto'}} className="text-3xl lg:text-5xl font-bold text-center">RÉFÉRENCES</h1>
+            <div className="grid grid-cols-3 gap-4 place-items-center mt-3">
                 {refs.map((ref,index) => {
                 return <img className="object-contain" key={index} src={ref} alt={'ref'+index} />
                 })}

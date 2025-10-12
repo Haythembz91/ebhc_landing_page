@@ -45,7 +45,7 @@ export async function POST(req:NextRequest){
             subject: 'EBHC Contact Form',
             html: '<p>Name: ' + name + '</p><p>Email: ' + email + '</p><p>Message: ' + message + '</p>'
         })
-        return NextResponse.json({ message: 'Email sent successfully' });
+        return NextResponse.json({ message: 'Envoi effectué'});
     }catch(e){
         console.log(e)
         return NextResponse.json({ error: 'Failed to send email' }, { status: 500 });
