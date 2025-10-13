@@ -12,8 +12,8 @@ const Header = ()=>{
                 </a>
                 <div className="hidden lg:flex items-center">
                     <ul className="flex space-x-4 font-bold">
-                        <li><a className="hover:underline" href="#">ACCEUIL</a></li>
-                        <li><a className="hover:underline" href="#">À PROPOS</a></li>
+                        <li><a className="hover:underline" href="/">ACCEUIL</a></li>
+                        <li><a className="hover:underline" href="#apropos">À PROPOS</a></li>
                         <li><a className="hover:underline" href="#services">NOS SERVICES</a></li>
                         <li><a className="hover:underline" href="#references">RÉFÉRENCES</a></li>
                         <li><a className="hover:underline" href="#contact">CONTACT</a></li>
@@ -25,8 +25,8 @@ const Header = ()=>{
             </nav>
             {showMenu&&<div className="lg:hidden p-y-3">
                     <ul className="flex flex-col space-x-4 space-y-3 font-bold">
-                        <li><a onClick={()=>setShowMenu(false)} className="hover:underline" href="#">ACCEUIL</a></li>
-                        <li><a onClick={()=>setShowMenu(false)} className="hover:underline" href="#">À PROPOS</a></li>
+                        <li><a onClick={()=>setShowMenu(false)} className="hover:underline" href="/">ACCEUIL</a></li>
+                        <li><a onClick={()=>setShowMenu(false)} className="hover:underline" href="#apropos">À PROPOS</a></li>
                         <li><a onClick={()=>setShowMenu(false)} className="hover:underline" href="#services">NOS SERVICES</a></li>
                         <li><a onClick={()=>setShowMenu(false)} className="hover:underline" href="#references">RÉFÉRENCES</a></li>
                         <li><a onClick={()=>setShowMenu(false)} className="hover:underline" href="#contact">CONTACT</a></li>

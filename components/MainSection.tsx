@@ -66,7 +66,7 @@ const MainSection = () => {
 
     return(
         <section id="services" className="m-5">
-            <div className="py-6 lg:grid lg:grid-cols-2" style={{fontFamily:'roboto'}}>
+            <div id="apropos" className="py-6 lg:grid lg:grid-cols-2" style={{fontFamily:'roboto'}}>
                     <div className="m-auto lg:w-3/4">
                         <p className="text-2xl font-bold p-2">
                         Pourquoi choisir EBHC ?
