@@ -99,7 +99,7 @@ const MainSection = () => {
                             <div className="m-auto grid grid-cols-2">
                                 {service.imageUrl?.map((imageUrl,index)=>{
                                 return (<div className="p-2" key={index}>
-                                    <img className="rounded-2xl" alt={'image'+index} src={imageUrl}></img>
+                                    <img className="rounded-2xl shadow-lg shadow-black" alt={'image'+index} src={imageUrl}></img>
                                 </div>)
                             })}
                             </div>

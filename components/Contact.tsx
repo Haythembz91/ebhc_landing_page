@@ -54,19 +54,19 @@ const Contact = ()=>{
                     <div className="mt-3">
                         <label htmlFor="name">Nom:</label>
                         <div className="mt-2">
-                            <input className="outline-black outline-1 rounded-md focus:outline-2 focus:outline-amber-500 w-full p-2 shadow-md " type="text" placeholder="Votre nom" id="name" name="name" required />
+                            <input className="outline-black outline-1 rounded-md focus:outline-2 focus:outline-amber-500 w-full p-2 shadow-md shadow-gray-400 " type="text" placeholder="Votre nom" id="name" name="name" required />
                         </div>
                     </div>
                     <div className="mt-3">
                         <label htmlFor="email">Email:</label>
                         <div className="mt-2">
-                            <input className="outline-black outline-1 rounded-md focus:outline-2 focus:outline-amber-500 w-full p-2 shadow-md " type="email" placeholder="Votre email" id="email" name="email" required />
+                            <input className="outline-black outline-1 rounded-md focus:outline-2 focus:outline-amber-500 w-full p-2 shadow-md shadow-gray-400 " type="email" placeholder="Votre email" id="email" name="email" required />
                         </div>
                     </div>
                     <div className="mt-3">
                         <label htmlFor="message">Message:</label>
                         <div className="mt-2">
-                            <textarea className="outline-black outline-1 rounded-md focus:outline-2 focus:outline-amber-500 w-full p-2 shadow-md " rows={5} placeholder="Votre message" id="message" name="message" required />
+                            <textarea className="outline-black outline-1 rounded-md focus:outline-2 focus:outline-amber-500 w-full p-2 shadow-md shadow-gray-400 " rows={5} placeholder="Votre message" id="message" name="message" required />
                         </div>
                     </div>
                     {error&&<div className="mt-3 bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-md shadow-md">
