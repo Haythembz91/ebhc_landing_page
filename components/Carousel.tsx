@@ -64,7 +64,7 @@ const Carousel = () => {
       </button>
 
       <div className='absolute left-1/2 bottom-1/8 -translate-x-1/2 w-3/4'>
-        <p className="text-[#FBAB21] text-xl sm:text-3xl lg:text-5xl font-bold leading-normal">
+        <p className="text-[#FBAB21] text-xl sm:text-3xl lg:text-5xl font-extrabold leading-normal">
           {titles[current]}
         </p>
       </div>

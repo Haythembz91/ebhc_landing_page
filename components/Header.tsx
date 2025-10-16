@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useState } from "react"
 import { HiOutlineMenu } from "react-icons/hi";
+import { RiCloseLargeLine } from "react-icons/ri";
 const Header = ()=>{
 
     const [showMenu, setShowMenu] = useState(false);
@@ -21,7 +22,7 @@ const Header = ()=>{
                     </ul>
                 </div>
                 <div onClick={()=>setShowMenu(p=>!p)} className="flex items-center lg:hidden">
-                    <HiOutlineMenu className="text-3xl"></HiOutlineMenu>
+                    {!showMenu?<HiOutlineMenu className="text-3xl"></HiOutlineMenu>:<RiCloseLargeLine className="text-3xl" />}
                 </div>
             </nav>
             {showMenu&&<div className="lg:hidden p-y-3">

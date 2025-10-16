@@ -4,14 +4,14 @@ import FadeUpOnScroll from "./FadeUpOnScroll"
 const MainSection = () => {
     const services = [
         {
-            text:'Nos services de plomberie couvrent tous vos besoins : installation, réparation et entretien. Que ce soit pour une fuite d’eau, un problème de canalisation ou la mise en place d’équipements sanitaires, notre équipe qualifiée intervient rapidement pour vous garantir confort et tranquillité.',
-            icon:'https://res.cloudinary.com/dmgfsayir/image/upload/v1760059568/plomberie_jhrxjy.png',
-            imageUrl:['https://res.cloudinary.com/dmgfsayir/image/upload/v1759975545/WhatsApp_Image_2025-10-05_%C3%A0_18.04.52_2a2d2d8e_ai9iry.jpg',
-                'https://res.cloudinary.com/dmgfsayir/image/upload/v1759975547/WhatsApp_Image_2025-10-05_%C3%A0_18.04.52_8e1c8e16_v341zt.jpg',
-                'https://res.cloudinary.com/dmgfsayir/image/upload/v1759975553/2_fkslwd.jpg',
-                'https://res.cloudinary.com/dmgfsayir/image/upload/v1759975685/WhatsApp_Image_2025-10-05_%C3%A0_18.04.51_1eca8269_mtonbf.jpg'
+            text:'Nous réalisons tous vos travaux de maçonnerie avec précision et solidité : construction, rénovation, réparation de murs, fondations, cloisons, dallage, pavage, revêtement et autres structures. Notre savoir-faire garantit des ouvrages durables et esthétiques, adaptés à vos besoins.',
+            icon:'https://res.cloudinary.com/dmgfsayir/image/upload/v1760059572/maconnerie_r8ww3z.png',
+            imageUrl:['https://res.cloudinary.com/dmgfsayir/image/upload/v1759976582/WhatsApp_Image_2025-10-04_%C3%A0_10.59.05_ff08338f_jv76sh.jpg',
+                'https://res.cloudinary.com/dmgfsayir/image/upload/v1759976684/WhatsApp_Image_2025-10-04_%C3%A0_19.06.57_c43fa895_teqges.jpg',
+                'https://res.cloudinary.com/dmgfsayir/image/upload/v1759976572/WhatsApp_Image_2025-10-04_%C3%A0_10.58.11_07f2aadd_jangy9.jpg',
+                'https://res.cloudinary.com/dmgfsayir/image/upload/v1759976569/WhatsApp_Image_2025-10-04_%C3%A0_19.03.04_11336957_r8bxzq.jpg'
             ],
-            title:'POLOMBERIE'
+            title:'Bâtiments et Travaux Publiques',
         },
         {
             text:'Apportez fraîcheur et modernité à vos espaces avec nos services de peinture intérieure et extérieure. Nous assurons une finition soignée et durable, adaptée à tous types de surfaces et styles.',
@@ -31,16 +31,6 @@ const MainSection = () => {
                 'https://res.cloudinary.com/dmgfsayir/image/upload/v1759976647/4_qhokfo.jpg'
             ],
             title:'PLAFONNAGE'
-        },
-        {
-            text:'Nous réalisons tous vos travaux de maçonnerie avec précision et solidité : construction, rénovation, réparation de murs, fondations, cloisons, dallage, pavage, revêtement et autres structures. Notre savoir-faire garantit des ouvrages durables et esthétiques, adaptés à vos besoins.',
-            icon:'https://res.cloudinary.com/dmgfsayir/image/upload/v1760059572/maconnerie_r8ww3z.png',
-            imageUrl:['https://res.cloudinary.com/dmgfsayir/image/upload/v1759976582/WhatsApp_Image_2025-10-04_%C3%A0_10.59.05_ff08338f_jv76sh.jpg',
-                'https://res.cloudinary.com/dmgfsayir/image/upload/v1759976684/WhatsApp_Image_2025-10-04_%C3%A0_19.06.57_c43fa895_teqges.jpg',
-                'https://res.cloudinary.com/dmgfsayir/image/upload/v1759976572/WhatsApp_Image_2025-10-04_%C3%A0_10.58.11_07f2aadd_jangy9.jpg',
-                'https://res.cloudinary.com/dmgfsayir/image/upload/v1759976569/WhatsApp_Image_2025-10-04_%C3%A0_19.03.04_11336957_r8bxzq.jpg'
-            ],
-            title:'MACONNERIE'
         },
         {
             text:'Assurez la durabilité et la sécurité de vos bâtiments grâce à nos solutions d’étanchéité professionnelles. Nous intervenons rapidement pour protéger vos toitures, terrasses, façades et fondations contre les infiltrations d’eau, l’humidité et les dommages structurels.',
@@ -63,6 +53,19 @@ const MainSection = () => {
             title:'MENUISERIE'
         }
         ]
+
+    const plomberie = [
+{
+            
+            text:'Nos services de plomberie couvrent tous vos besoins: installation, réparation et entretien. Que ce soit pour une fuite d’eau, un problème de canalisation ou la mise en place d’équipements sanitaires, notre équipe qualifiée intervient rapidement pour vous garantir confort et tranquillité.',
+            icon:'https://res.cloudinary.com/dmgfsayir/image/upload/v1760059568/plomberie_jhrxjy.png',
+            imageUrl:[
+                'https://res.cloudinary.com/dmgfsayir/image/upload/v1759975547/WhatsApp_Image_2025-10-05_%C3%A0_18.04.52_8e1c8e16_v341zt.jpg',
+                'https://res.cloudinary.com/dmgfsayir/image/upload/v1759975553/2_fkslwd.jpg'
+            ],
+            title:'POLOMBERIE'
+        }
+    ]
 
     return(
         <section id="services" className="m-5">
@@ -90,9 +93,9 @@ const MainSection = () => {
                             <div className="m-auto lg:w-3/4">
                                 <div className="flex justify-center">
                                     <img className="w-10" src={service.icon} alt={"icon"+index}></img>
-                                    <p className="text-2xl p-2">{service.title}</p>
+                                    <p className="text-3xl font-semibold p-2">{service.title}</p>
                                 </div>
-                                <p className="lg:text-2xl p-2">
+                                <p className="lg:text-2xl p-2 lg:leading-10">
                                 {service.text}
                                 </p>
                             </div>
@@ -107,6 +110,31 @@ const MainSection = () => {
                     </FadeUpOnScroll>
                 )
             })}
+            <FadeUpOnScroll>
+                <div className="py-6 lg:grid lg:grid-cols-2 border-b border-gray-400" style={{fontFamily:'roboto'}}>
+                    <div className="m-auto lg:w-3/4">
+                        <div className="flex justify-center">
+                            <img className="w-10" src={plomberie[0].icon} alt={"icon"}></img>
+                            <p className="text-3xl font-semibold p-2">{plomberie[0].title}</p>
+                        </div>
+                        <p className="lg:text-2xl p-2 lg:leading-10">
+                        {plomberie[0].text}
+                        </p>
+                    </div>
+                    <div>
+                        <div>
+                            <img className="mx-auto" src={'https://res.cloudinary.com/dmgfsayir/image/upload/v1759975685/WhatsApp_Image_2025-10-05_%C3%A0_18.04.51_1eca8269_mtonbf.jpg'}></img>
+                        </div>
+                        <div className="m-auto grid grid-cols-2">
+                            {plomberie[0].imageUrl?.map((imageUrl,index)=>{
+                            return (<div className="p-2" key={index}>
+                                <img className="rounded-2xl shadow-lg shadow-black" alt={'image'+index} src={imageUrl}></img>
+                        </div>)
+                    })}
+                    </div>
+                    </div>
+                </div>
+            </FadeUpOnScroll>
         </section>
     )
 }
