@@ -122,8 +122,8 @@ const MainSection = () => {
                         </p>
                     </div>
                     <div>
-                        <div>
-                            <img className="mx-auto" src={'https://res.cloudinary.com/dmgfsayir/image/upload/v1759975685/WhatsApp_Image_2025-10-05_%C3%A0_18.04.51_1eca8269_mtonbf.jpg'}></img>
+                        <div className="p-2">
+                            <img className="rounded-2xl shadow-lg shadow-black" alt="image" src={'https://res.cloudinary.com/dmgfsayir/image/upload/v1759975685/WhatsApp_Image_2025-10-05_%C3%A0_18.04.51_1eca8269_mtonbf.jpg'}></img>
                         </div>
                         <div className="m-auto grid grid-cols-2">
                             {plomberie[0].imageUrl?.map((imageUrl,index)=>{
