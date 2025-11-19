@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Banner from "@/components/Banner";
 import { Analytics } from "@vercel/analytics/next"
+import SmoothScrolling from "@/scripts/SmoothScrolling";
 
 export const metadata: Metadata = {
   title: "EBHC - Entreprise Ben Hammed de Construction",
@@ -24,9 +26,13 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
           rel="stylesheet"
         />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet"></link>
       </head>
       <body className={`antialiased`}>
+        <SmoothScrolling></SmoothScrolling>
         <Header></Header>
+        <Banner></Banner>
         {children}
         <Footer></Footer>
         <Analytics />

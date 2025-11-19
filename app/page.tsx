@@ -1,14 +1,19 @@
-import Carousel from "@/components/Carousel"
 import Contact from "@/components/Contact"
-import MainSection from "@/components/MainSection"
+import FadeUpOnScroll from "@/components/FadeUpOnScroll"
+import Projects from "@/components/Projects"
 import References from "@/components/References"
+import Services from "@/components/Services"
+import Stats from "@/components/Stats"
 
 
 const Home = ()=>{
     return(
         <main className="">
-            <Carousel></Carousel>
-            <MainSection></MainSection>
+            <FadeUpOnScroll>
+                <Stats></Stats>
+            </FadeUpOnScroll>
+            <Services/>
+            <Projects></Projects>
             <References></References>
             <Contact></Contact>
         </main>

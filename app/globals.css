@@ -4,6 +4,31 @@
     background-color: #ffd285;
 } */
 
-li a{
-    font-family: 'roboto', Arial, Helvetica, sans-serif
+.navMenu li a{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif
+}
+
+
+/* body{
+    background-color: rgb(255 251 235);
+} */
+
+.contactBtn{
+    border: solid 1px black;
+    border-radius: 20px;
+    padding: 5px 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+
+.contactBtn:hover{
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+.rouge-script-regular {
+  font-family: "Rouge Script", cursive;
+  font-weight: 400;
+  font-style: normal;
 }

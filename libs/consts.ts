@@ -19,7 +19,7 @@ export const services = [
                 'https://res.cloudinary.com/dmgfsayir/image/upload/v1760918376/Untitled_jkq4y6.jpg',
                 'https://res.cloudinary.com/dmgfsayir/image/upload/v1760918374/2_mt7pfy.jpg'
             ],
-            title:'PEINTURE'
+            title:'Peinture'
         },
         {
             text:'Nous réalisons des travaux de plafonnage et de plâtrerie pour des finitions nettes et durables. Que ce soit pour la rénovation ou la construction, nous apportons élégance et solidité à vos plafonds et murs.',
@@ -29,7 +29,7 @@ export const services = [
                 'https://res.cloudinary.com/dmgfsayir/image/upload/v1759976647/4_qhokfo.jpg'
 
             ],
-            title:'PLAFONNAGE'
+            title:'Plafonnage et Plâtrerie'
         },
         {
             text:'Assurez la durabilité et la sécurité de vos bâtiments grâce à nos solutions d’étanchéité professionnelles. Nous intervenons rapidement pour protéger vos toitures, terrasses, façades et fondations contre les infiltrations d’eau, l’humidité et les dommages structurels.',
@@ -39,7 +39,7 @@ export const services = [
                 'https://res.cloudinary.com/dmgfsayir/image/upload/v1759972471/5_yjprkq.jpg',
                 'https://res.cloudinary.com/dmgfsayir/image/upload/v1759972470/3_dngn0c.jpg'
             ],
-            title:'ETANCHÉITE'
+            title:'Etanchéité'
         },
         {
             text:'Spécialistes en solutions sur mesure, nous concevons et installons des menuiseries qui allient robustesse, durabilité et design moderne. Fenêtres, portes, portails ou structures métalliques : notre savoir-faire garantit des réalisations adaptées à tous vos projets de construction ou de rénovation.',
@@ -49,19 +49,50 @@ export const services = [
                 'https://res.cloudinary.com/dmgfsayir/image/upload/v1759973164/WhatsApp_Image_2025-10-05_%C3%A0_18.04.53_e7dc4845_vwrydm.jpg',
                 'https://res.cloudinary.com/dmgfsayir/image/upload/v1759973115/3_clbask.jpg'
             ],
-            title:'MENUISERIE'
-        }
-        ]
-
-export const plomberie = [
-{
-            
+            title:'Menuiseries'
+        },
+        {
             text:'Nos services de plomberie couvrent tous vos besoins: installation, réparation et entretien. Que ce soit pour une fuite d’eau, un problème de canalisation ou la mise en place d’équipements sanitaires, notre équipe qualifiée intervient rapidement pour vous garantir confort et tranquillité.',
             icon:'https://res.cloudinary.com/dmgfsayir/image/upload/v1760059568/plomberie_jhrxjy.png',
             imageUrl:[
+                'https://res.cloudinary.com/dmgfsayir/image/upload/v1759975553/2_fkslwd.jpg',
                 'https://res.cloudinary.com/dmgfsayir/image/upload/v1759975547/WhatsApp_Image_2025-10-05_%C3%A0_18.04.52_8e1c8e16_v341zt.jpg',
-                'https://res.cloudinary.com/dmgfsayir/image/upload/v1759975553/2_fkslwd.jpg'
+                
             ],
-            title:'POLOMBERIE'
+            title:'Plomberie'
         }
-    ]
+]
+
+
+export const projects = [
+    {
+        title:'Projet 1',
+        imageUrl:'https://framerusercontent.com/images/VRdm0KP3nzZztsq0ZsaRySBLv4Q.png',
+        description:'Description du projet 1'
+    },
+    {
+        title:'Projet 2',
+        imageUrl:'https://framerusercontent.com/images/hKXCn7MB2zBK1G9XjswdrutFc.png',
+        description:'Description du projet 2'
+    },
+    {
+        title:'Projet 3',
+        imageUrl:'https://framerusercontent.com/images/waMip9SC5MWNdl638RDF82w5DWQ.png',
+        description:'Description du projet 3'
+    },
+    {
+        title:'Projet 4',
+        imageUrl:'https://framerusercontent.com/images/bAOBiI1vyJ9f4FbdTgYlsF4.png',
+        description:'Description du projet 4'
+    },
+    {
+        title:'Projet 5',
+        imageUrl:'https://framerusercontent.com/images/eqws8RdPKxfgrUfc6dGhEf2IxE.png',
+        description:'Description du projet 5'
+    },
+    {
+        title:'Projet 6',
+        imageUrl:'https://framerusercontent.com/images/gOyYJP8TWinTj259XAi4SQh20Ic.png',
+        description:'Description du projet 6'
+    },
+]
