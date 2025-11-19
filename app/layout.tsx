@@ -3,8 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Banner from "@/components/Banner";
-import { Analytics } from "@vercel/analytics/next"
-import SmoothScrolling from "@/scripts/SmoothScrolling";
+import { Analytics } from "@vercel/analytics/next"s
 
 export const metadata: Metadata = {
   title: "EBHC - Entreprise Ben Hammed de Construction",
@@ -30,7 +29,6 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet"></link>
       </head>
       <body className={`antialiased`}>
-        <SmoothScrolling></SmoothScrolling>
         <Header></Header>
         <Banner></Banner>
         {children}
