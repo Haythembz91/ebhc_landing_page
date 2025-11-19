@@ -3,7 +3,7 @@ import { useEffect } from "react";
 
 export default function MomentumScroll() {
   useEffect(() => {
-    if(window.innerWidth < 1024) return;
+    if('ontouchstart' in window||window.innerWidth < 1024) return;
     let velocity = 0;
     let isTicking = false;
 

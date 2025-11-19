@@ -13,6 +13,9 @@
     background-color: rgb(255 251 235);
 } */
 
+html {
+  scroll-behavior: smooth;
+}
 .contactBtn{
     border: solid 1px black;
     border-radius: 20px;
