@@ -8,6 +8,9 @@
     font-family: 'Poppins', Arial, Helvetica, sans-serif
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 /* body{
     background-color: rgb(255 251 235);
@@ -32,6 +35,20 @@ html {
 
 .rouge-script-regular {
   font-family: "Rouge Script", cursive;
-  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-regular{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.montserrat-regular{
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+.story-script-regular {
+  font-family: "Story Script", sans-serif;
   font-style: normal;
 }

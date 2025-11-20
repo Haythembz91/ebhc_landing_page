@@ -49,7 +49,12 @@ const Contact = ()=>{
 
     return (
         <section className="p-2" id="contact">
-            <h1 style={{fontFamily:'roboto'}} className="text-3xl lg:text-5xl font-bold text-center">CONTACT</h1>
+            <div className="m-5 p-3 border-b border-gray-400">
+                <h1 className="text-3xl lg:text-5xl text-center font-bold p-3 poppins-regular">CONTACT</h1>
+                <p className="text-gray-500 text-2xl lg:text-3xl story-script-regular text-center lg:w-[50%] mx-auto mt-3">
+                    Besoin d’un renseignement ou d’un devis ? Contactez-nous, notre équipe vous répondra rapidement.
+                </p>
+            </div>
             <form onSubmit={handleSubmit} ref={formRef} className="lg:w-1/2 mx-auto">
                     <div className="mt-3">
                         <label htmlFor="name">Nom:</label>

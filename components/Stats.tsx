@@ -26,7 +26,7 @@ const Counter = ({ target, duration = 2000, startCounting }:{target: number, dur
     requestAnimationFrame(step);
   }, [target, duration, startCounting]);
 
-  return <span>{count}+</span>;
+  return <span>{count}</span>;
 };
 
 // Stats component
@@ -55,26 +55,26 @@ const Stats = () => {
   return (
     <section ref={sectionRef} className="py-10">
       <div>
-        <p className="text-2xl font-bold text-center">Pourquoi choisir EBHC ?</p>
+        <p className="text-2xl font-bold text-center poppins-regular">Pourquoi choisir EBHC ?</p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3">
         <div className="mt-3 px-5">
           <p className="border-b border-gray-400 text-4xl lg:text-8xl font-bold py-3">
-            <Counter target={100} startCounting={visible} />
+            <Counter target={100} startCounting={visible} />+
           </p>
           <p className="mt-3 lg:text-3xl font-semibold">Projets réalisés</p>
         </div>
 
         <div className="mt-3 px-5">
           <p className="border-b border-gray-400 text-4xl lg:text-8xl font-bold py-3">
-            <Counter target={100} startCounting={visible} />
+            <Counter target={100} startCounting={visible} />%
           </p>
           <p className="mt-3 lg:text-3xl font-semibold">Clients satisfaits</p>
         </div>
 
         <div className="mt-3 px-5">
           <p className="border-b border-gray-400 text-4xl lg:text-8xl font-bold py-3">
-            <Counter target={12} startCounting={visible} />
+            <Counter target={12} startCounting={visible} />+
           </p>
           <p className="mt-3 lg:text-3xl font-semibold">Années d&apos;expérience</p>
         </div>
