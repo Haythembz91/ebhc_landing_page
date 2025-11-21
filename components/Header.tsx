@@ -48,15 +48,16 @@ const Header = () => {
                 <div className="hidden lg:flex items-center mx-auto">
                     <ul className="navMenu flex space-x-8 text-1xl font-bold">
                         <li><Link className="hover:underline" href="/">ACCEUIL</Link></li>
-                        <li><Link className="hover:underline" href="#apropos">À PROPOS</Link></li>
-                        <li><Link className="hover:underline" href="#services">NOS SERVICES</Link></li>
-                        <li><Link className="hover:underline" href="#references">RÉFÉRENCES</Link></li>
+                        <li><Link className="hover:underline" href="/about">À PROPOS</Link></li>
+                        <li><Link className="hover:underline" href="/#services">NOS SERVICES</Link></li>
+                        <li><Link className="hover:underline" href="/#projets">NOS PROJETS</Link></li>
+                        <li><Link className="hover:underline" href="/#references">RÉFÉRENCES</Link></li>
                     </ul>
                 </div>
 
                 <div className="hidden navMenu lg:flex items-center">
                     <ul className="navMenu flex space-x-2 text-1xl font-bold contactBtn items-center">
-                        <li><Link className="hover:underline" href="#contact">CONTACT</Link></li>
+                        <li><Link className="hover:underline" href="/#contact">CONTACT</Link></li>
                         <BsArrowUpRightCircleFill />
                     </ul>
                 </div>
@@ -70,11 +71,11 @@ const Header = () => {
                 <div className="lg:hidden py-3">
                     <ul className="navMenu flex flex-col space-y-3 font-bold">
                         <li className="mx-auto"><Link onClick={() => setShowMenu(false)} className="hover:underline" href="/">ACCEUIL</Link></li>
-                        <li className="mx-auto"><Link onClick={() => setShowMenu(false)} className="hover:underline" href="#apropos">À PROPOS</Link></li>
-                        <li className="mx-auto"><Link onClick={() => setShowMenu(false)} className="hover:underline" href="#services">NOS SERVICES</Link></li>
-                        <li className="mx-auto"><Link onClick={() => setShowMenu(false)} className="hover:underline" href="#services">NOS PROJETS</Link></li>
-                        <li className="mx-auto"><Link onClick={() => setShowMenu(false)} className="hover:underline" href="#references">RÉFÉRENCES</Link></li>
-                        <li className="mx-auto"><Link onClick={() => setShowMenu(false)} className="hover:underline" href="#contact">CONTACT</Link></li>
+                        <li className="mx-auto"><Link onClick={() => setShowMenu(false)} className="hover:underline" href="/about">À PROPOS</Link></li>
+                        <li className="mx-auto"><Link onClick={() => setShowMenu(false)} className="hover:underline" href="/#services">NOS SERVICES</Link></li>
+                        <li className="mx-auto"><Link onClick={() => setShowMenu(false)} className="hover:underline" href="/#projets">NOS PROJETS</Link></li>
+                        <li className="mx-auto"><Link onClick={() => setShowMenu(false)} className="hover:underline" href="/#references">RÉFÉRENCES</Link></li>
+                        <li className="mx-auto"><Link onClick={() => setShowMenu(false)} className="hover:underline" href="/#contact">CONTACT</Link></li>
                         <li className="mx-auto mt-5 flex"><FaPhoneAlt className="my-auto" /><Link href={"tel:+21652029998"}>(+216) 52 029 998</Link></li>
                         <li className="mx-auto"><Link className="flex" href={"mailto:helmi1benhammed@yahoo.com"}><MdEmail className="my-auto" />helmi1benhammed@yahoo.com</Link></li>
                     </ul>

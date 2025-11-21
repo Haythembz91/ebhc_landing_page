@@ -3,7 +3,7 @@ const Services = ()=>{
 
 
     return(
-        <section className="relative h-[650vh] p-3">
+        <section id={"services"} className="relative h-[650vh] p-3">
             <div className="m-5 p-3 border-b border-gray-400">
                 <h1 className="text-3xl lg:text-5xl text-center font-bold p-3 poppins-regular">NOS SERVICES</h1>
                 <p className="text-gray-500 text-2xl lg:text-3xl story-script-regular text-center mt-3 lg:w-[50%] mx-auto">

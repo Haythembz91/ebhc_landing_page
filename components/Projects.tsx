@@ -3,7 +3,7 @@ import Link from "next/link"
 import { BsArrowUpRightCircleFill } from "react-icons/bs"
 const Projects = ()=>{
     return(
-        <section>
+        <section id={"projets"}>
             <div className="m-5 p-3 border-b border-gray-400">
                 <h1 className="text-3xl lg:text-5xl text-center font-bold p-3 poppins-regular">NOS PROJETS</h1>
                 <p className="text-gray-500 text-2xl lg:text-3xl story-script-regular text-center lg:w-[50%] mt-3 mx-auto">
@@ -30,7 +30,7 @@ const Projects = ()=>{
                                 </div>
                                 <div className="flex mt-5 lg:mt-8">
                                     <ul className="navMenu bg-amber-50/30 backdrop-blur-md contactBtn flex space-x-2 mt-3 lg:text-3xl">
-                                        <li><Link className="hover:underline" href="#contact">En savoir plus</Link></li>
+                                        <li><Link className="hover:underline" href={"projects/"+project.title.replaceAll(' ', '_').toLocaleLowerCase()}>En savoir plus</Link></li>
                                         <BsArrowUpRightCircleFill className="my-auto" />
                                     </ul>
                                 </div>
