@@ -25,10 +25,10 @@ const Banner = ()=>{
             <picture>
                 <source
                     media="(max-width: 1024px)"
-                    srcSet="https://res.cloudinary.com/dmgfsayir/image/upload/v1763348486/Gemini_Generated_Image_iiekpeiiekpeiiek_a3tnbb.png"
+                    srcSet="https://res.cloudinary.com/dmgfsayir/image/upload/v1763743259/Gemini_Generated_Image_h04mooh04mooh04m_qb9foe.png"
                 />
                 <img
-                    src="https://res.cloudinary.com/dmgfsayir/image/upload/v1763256683/wuqoN0RyPWJTwAExCpNHNyoTRQ_djut4x.avif"
+                    src="https://res.cloudinary.com/dmgfsayir/image/upload/v1763742395/Gemini_Generated_Image_h04mooh04mooh04m_erh36g.png"
                     alt="Banner"
                     className="w-full mx-auto"
                 />

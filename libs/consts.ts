@@ -67,32 +67,32 @@ export const services = [
 export const projects = [
     {
         title:'Projet 1',
-        imageUrl:'https://framerusercontent.com/images/VRdm0KP3nzZztsq0ZsaRySBLv4Q.png',
+        imageUrl:'https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg',
         description:'Description du projet 1'
     },
     {
         title:'Projet 2',
-        imageUrl:'https://framerusercontent.com/images/hKXCn7MB2zBK1G9XjswdrutFc.png',
+        imageUrl:'https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg',
         description:'Description du projet 2'
     },
     {
         title:'Projet 3',
-        imageUrl:'https://framerusercontent.com/images/waMip9SC5MWNdl638RDF82w5DWQ.png',
+        imageUrl:'https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg',
         description:'Description du projet 3'
     },
     {
         title:'Projet 4',
-        imageUrl:'https://framerusercontent.com/images/bAOBiI1vyJ9f4FbdTgYlsF4.png',
+        imageUrl:'https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg',
         description:'Description du projet 4'
     },
     {
         title:'Projet 5',
-        imageUrl:'https://framerusercontent.com/images/eqws8RdPKxfgrUfc6dGhEf2IxE.png',
+        imageUrl:'https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg',
         description:'Description du projet 5'
     },
     {
         title:'Projet 6',
-        imageUrl:'https://framerusercontent.com/images/gOyYJP8TWinTj259XAi4SQh20Ic.png',
+        imageUrl:'https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg',
         description:'Description du projet 6'
     },
 ]

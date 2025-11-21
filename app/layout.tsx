@@ -30,10 +30,12 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet"></link>
       </head>
-      <body className={`antialiased`}>
+      <body className={`antialiased min-h-screen flex flex-col`}>
         <SmoothScrolling></SmoothScrolling>
         <Header></Header>
-        {children}
+        <main className="flex-grow">
+          {children}
+        </main>
         <Footer></Footer>
         <Analytics />
       </body>
