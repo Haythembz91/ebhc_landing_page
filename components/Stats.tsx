@@ -55,9 +55,9 @@ const Stats = () => {
   return (
     <section ref={sectionRef} className="py-10">
       <div>
-        <p className="text-2xl font-bold text-center poppins-regular">Pourquoi choisir EBHC ?</p>
+        <p className="text-3xl lg:text-5xl text-center font-bold p-3 poppins-regular">Pourquoi choisir EBHC ?</p>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3">
+      <div className="grid grid-cols-1 lg:grid-cols-3 mt-3">
         <div className="mt-3 px-5">
           <p className="border-b border-gray-400 text-4xl lg:text-8xl font-bold py-3">
             <Counter target={100} startCounting={visible} />+
@@ -81,7 +81,7 @@ const Stats = () => {
       </div>
       <div className="flex mt-5 lg:mt-8">
         <ul className="navMenu bg-amber-50/30 backdrop-blur-md font-bold contactBtn flex space-x-2 items-center mx-auto mt-3 lg:text-3xl">
-            <li><Link className="hover:underline" href="#contact">CONTACT</Link></li>
+            <li><Link className="hover:underline" href="/about">À propos de nous</Link></li>
             <BsArrowUpRightCircleFill />
         </ul>
       </div>

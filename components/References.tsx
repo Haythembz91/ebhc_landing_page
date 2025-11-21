@@ -1,25 +1,60 @@
-
+'use client'
+import { refs } from "@/libs/consts"
+import {Swiper, SwiperSlide} from 'swiper/react'
+import { Autoplay, Navigation, Pagination } from "swiper/modules"
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 const References = () => {
 
-    const refs = [
-        'https://res.cloudinary.com/dmgfsayir/image/upload/v1760147942/WhatsApp_Image_2025-10-07_%C3%A0_14.38.53_5a1a952d_uz3qje.jpg',
-        'https://res.cloudinary.com/dmgfsayir/image/upload/v1760147940/WhatsApp_Image_2025-10-07_%C3%A0_14.38.14_eccbd933_xfhvw4.jpg',
-        'https://res.cloudinary.com/dmgfsayir/image/upload/v1760147939/WhatsApp_Image_2025-10-07_%C3%A0_14.39.56_b0754ef6_ivicqa.jpg'
-    ]
+    
     return (
         <section id="references" className="p-5 mt-5">
             <div className="m-5 p-3 border-b border-gray-400">
                 <h1 className="text-3xl lg:text-5xl text-center font-bold p-3 poppins-regular">RÉFÉRENCES</h1>
                 <p className="text-gray-500 text-2xl lg:text-3xl story-script-regular text-center mt-3 lg:w-[50%] mx-auto">
-                    Ils nous font confiance. Découvrez nos références clients.
+                    Ils nous font confiance. Découvrez une sélection de nos références clients.
                 </p>
             </div>
-            <div className="grid grid-cols-3 gap-4 place-items-center mt-3">
-                {refs.map((ref,index) => {
-                return <img className="object-contain" key={index} src={ref} alt={'ref'+index} />
-                })}
-            </div>
+            <Swiper slidesPerView={1} spaceBetween={30} modules={[Pagination, Autoplay, Navigation]} navigation autoplay={{delay: 3000}} pagination={{ clickable: true }} loop={true}>
+                {refs.map((ref, index)=>{
+                return(
+                    <SwiperSlide key={index}>
+                        <div className="lg:grid lg:grid-cols-2 p-3 lg:h-[70vh]">
+                            <div className="my-3 lg:my-auto">
+                                <img className="mx-auto" src={ref.logo} alt={ref.name.replaceAll(' ', '_').toLocaleLowerCase()+'_logo'}></img>
+                            </div>
+                            <div className="my-auto lg:px-5">
+                                <div className="my-3 lg:pt-5">
+                                    <h3 className="text-4xl xl:text-5xl font-semibold poppins-regular text-center">
+                                        {ref.name}
+                                    </h3>
+                                </div>
+                                <div className="my-3 lg:pt-5">
+                                    <p className="text-gray-500 font-semibold montserrat-regular">
+                                        {ref.title}
+                                    </p>
+                                </div>
+                                <div className="px-5 my-3">
+                                    <ul className="list-disc">
+                                        {ref.description.map((desc, index)=>{
+                                            return(
+                                                <li key={index}>
+                                                    <p className="text-gray-500 font-semibold montserrat-regular">
+                                                        {desc}
+                                                    </p>
+                                                </li>
+                                            )
+                                        })}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>        
+                    </SwiperSlide>
+                )
+            })}
+            </Swiper>
         </section>
     )
 }

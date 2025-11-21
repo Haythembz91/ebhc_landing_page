@@ -12,8 +12,8 @@ const Services = ()=>{
             </div>
             {services.map((service, index)=>{
                 return(
-                    <div key={index} style={{ zIndex: 10 * (index + 1), width: `${95+index}%`}} className={`sticky top-3 lg:top-[60px] h-[100vh] bg-white mx-auto my-3`}>
-                        <div className="lg:grid lg:grid-cols-2 border border-gray-500 shadow-lg p-3">
+                    <div key={index} style={{ zIndex: 10 * (index + 1), width: `${95+index}%`, top: `${50+3*index}px`}} className={`sticky lg:top-[60px] h-[100vh] bg-white mx-auto my-3`}>
+                        <div className="lg:grid lg:grid-cols-2 border border-gray-500 p-3">
                             <div className="my-3 overflow-hidden">
                                 <img className="transition-transform duration-900 ease-out hover:scale-110" src={service.imageUrl[0]} alt={service.title.replaceAll(' ', '_').toLocaleLowerCase()+'_thumbnail'}></img>
                             </div>

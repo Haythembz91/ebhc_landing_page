@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import Banner from "@/components/Banner";
 import { Analytics } from "@vercel/analytics/next";
 import SmoothScrolling from "@/scripts/SmoothScrolling";
 
@@ -34,7 +33,6 @@ export default function RootLayout({
       <body className={`antialiased`}>
         <SmoothScrolling></SmoothScrolling>
         <Header></Header>
-        <Banner></Banner>
         {children}
         <Footer></Footer>
         <Analytics />

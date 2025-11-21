@@ -96,3 +96,31 @@ export const projects = [
         description:'Description du projet 6'
     },
 ]
+
+export const refs = [
+        {logo:'https://res.cloudinary.com/dmgfsayir/image/upload/v1760147942/WhatsApp_Image_2025-10-07_%C3%A0_14.38.53_5a1a952d_uz3qje.jpg',
+            name:'Ministère de l’Éducation – Tunisie',
+            title:'Interventions régulières pour l’entretien et l’amélioration des établissements scolaires :',
+            description:['Travaux de maintenance dans les lycées, collèges et écoles primaires',
+                'Réparations diverses des bâtiments',
+                'Rénovation et remise à niveau des infrastructures éducatives'
+            ]
+        },
+        {logo:'https://res.cloudinary.com/dmgfsayir/image/upload/v1760147940/WhatsApp_Image_2025-10-07_%C3%A0_14.38.14_eccbd933_xfhvw4.jpg',
+            name:'Solutions Composites – Tunisie',
+            title:'Prestations variées pour des entreprises du secteur privé, incluant :',
+            description:['Travaux de construction et de rénovation',
+                'Travaux de peinture intérieure et extérieure',
+                'Réalisation de faux plafonds et travaux en placoplatre',
+                'Aménagements et finitions diverses'
+            ]
+        },
+        {logo:'https://res.cloudinary.com/dmgfsayir/image/upload/v1760147939/WhatsApp_Image_2025-10-07_%C3%A0_14.39.56_b0754ef6_ivicqa.jpg',
+            name:'Délégation de Zaghouan – Tunisie',
+            title:'Travaux publics exécutés pour la collectivité locale :',
+            description:['Réparation et entretien des voies routières',
+                'Travaux d’enrobé, pavage et réfection des rues',
+                'Nettoyage et aménagements urbains'
+            ]
+        },
+    ]

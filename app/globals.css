@@ -52,3 +52,16 @@ html {
   font-family: "Story Script", sans-serif;
   font-style: normal;
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}
+
+
+@media (min-width: 1024px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: flex !important;
+  }
+}

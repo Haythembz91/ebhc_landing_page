@@ -37,11 +37,11 @@ const Header = () => {
             showHeader ? "translate-y-0" : "-translate-y-full"
         }`}>
             <nav className="w-full flex justify-between">
-                <Link href="#">
+                <Link href="/">
                     <img
                         className="h-20 w-auto object-contain"
                         src={'https://res.cloudinary.com/dmgfsayir/image/upload/v1759798025/logo-modified_g9f8cq.png'}
-                        alt="Logo"
+                        alt="EBHC Logo"
                     />
                 </Link>
 
