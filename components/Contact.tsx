@@ -55,7 +55,7 @@ const Contact = ()=>{
                     Besoin d’un renseignement ou d’un devis ? Contactez-nous, notre équipe vous répondra rapidement.
                 </p>
             </div>
-            <form onSubmit={handleSubmit} ref={formRef} className="lg:w-1/2 mx-auto">
+            <form onSubmit={handleSubmit} ref={formRef} className="lg:w-1/2 mx-auto montserrat-regular">
                     <div className="mt-3">
                         <label htmlFor="name">Nom:</label>
                         <div className="mt-2">

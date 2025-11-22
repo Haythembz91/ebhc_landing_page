@@ -8,12 +8,12 @@ const Banner = ()=>{
         <section className="relative pt-20">
             <div className="grid grid-cols-1 lg:grid-cols-3 space-y-5 absolute bottom-0 lg:bottom-6 p-5 lg:p-8 xl:p-12">
                 <div className="lg:col-span-2">
-                    <h2 className=" text-4xl sm:text-6xl md:text-8xl lg:text-6xl xl:text-9xl text-white font-semibold mb-0">
+                    <h2 className=" text-4xl sm:text-6xl md:text-8xl lg:text-6xl xl:text-9xl text-white font-semibold lg:p-3 poppins-regular">
                         Votre partenaire en construction et rénovation
                     </h2>
                 </div>
                 <div className="lg:col-span-1 navMenu my-auto flex flex-col items-start">
-                    <p className="text-white sm:text-3xl md:my-3 text-center">
+                    <p className="text-white sm:text-3xl md:my-3 text-center montserrat-regular font-semibold">
                         Demandez votre devis personnalisé en toute simplicité.
                     </p>
                     <ul className="navMenu flex space-x-2 bg-amber-50/30 backdrop-blur-md font-bold contactBtn items-center mx-auto mt-3 animate-pulse">
