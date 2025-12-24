@@ -24,7 +24,9 @@ export const services = [
         {
             text:'Nous réalisons des travaux de plafonnage et de plâtrerie pour des finitions nettes et durables. Que ce soit pour la rénovation ou la construction, nous apportons élégance et solidité à vos plafonds et murs.',
             icon:'https://res.cloudinary.com/dmgfsayir/image/upload/v1760060133/plafond_z1z0ga.png',
-            imageUrl:['https://res.cloudinary.com/dmgfsayir/image/upload/v1759976648/WhatsApp_Image_2025-10-05_%C3%A0_18.04.54_38991e13_mhtri5.jpg',
+            imageUrl:[
+                "https://res.cloudinary.com/dmgfsayir/image/upload/v1766538412/Gemini_Generated_Image_11q1z711q1z711q1_vjucug.png",
+                'https://res.cloudinary.com/dmgfsayir/image/upload/v1759976648/WhatsApp_Image_2025-10-05_%C3%A0_18.04.54_38991e13_mhtri5.jpg',
                 'https://res.cloudinary.com/dmgfsayir/image/upload/v1759976647/5_jjpnfm.jpg',
                 'https://res.cloudinary.com/dmgfsayir/image/upload/v1759976647/4_qhokfo.jpg'
 
@@ -55,6 +57,7 @@ export const services = [
             text:'Nos services de plomberie couvrent tous vos besoins: installation, réparation et entretien. Que ce soit pour une fuite d’eau, un problème de canalisation ou la mise en place d’équipements sanitaires, notre équipe qualifiée intervient rapidement pour vous garantir confort et tranquillité.',
             icon:'https://res.cloudinary.com/dmgfsayir/image/upload/v1760059568/plomberie_jhrxjy.png',
             imageUrl:[
+                'https://res.cloudinary.com/dmgfsayir/image/upload/v1766537889/unnamed_itzdd8.jpg',
                 'https://res.cloudinary.com/dmgfsayir/image/upload/v1759975553/2_fkslwd.jpg',
                 'https://res.cloudinary.com/dmgfsayir/image/upload/v1759975547/WhatsApp_Image_2025-10-05_%C3%A0_18.04.52_8e1c8e16_v341zt.jpg',
                 
@@ -66,34 +69,115 @@ export const services = [
 
 export const projects = [
     {
-        title:'Projet 1',
-        imageUrl:'https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg',
-        description:'Description du projet 1'
+        title:'Travaux de réalisation de caniveaux trapézoïdaux – Collège Cité Les Nymphes - Zaghouan',
+        imageUrl:'https://res.cloudinary.com/dmgfsayir/image/upload/v1766530784/3_csnqyc.jpg',
+        tags:['Béton armé', 'Terrassement', 'Coffrage', 'Ferraillage', "Evacuation des eaux", "Caniveaux Trapézoïdaux", "Drainage" ],
+        gallery:[
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1765406489/16_iusyok.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1765406449/14_qdlrcg.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1765406409/11_yfc96y.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1765406404/7_xzqtgi.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1765406401/4_oyp3n8.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1765406384/3_igtpwg.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1766530779/1_q9pftj.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1766530784/3_csnqyc.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1766530781/2_zawpxw.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1766530779/1_q9pftj.jpg",
+        ],
+        description:`
+            <p>Ce projet concerne la conception et la réalisation de caniveaux trapézoïdaux destinés à l’évacuation efficace des eaux pluviales et des eaux de ruissellement. La procédure suivie comprend plusieurs étapes clés, garantissant durabilité, fonctionnalité et conformité aux normes techniques :</p>
+            <ol>
+                <li class="mt-3"><strong>Étude et préparation du site</strong>
+                <ul class="px-3" style="list-style-type: disc;">
+                    <li>Analyse du terrain et définition des emplacements des caniveaux.</li>
+                    <li>Repérage des contraintes techniques (pentes, réseaux existants, circulation).</li>
+                    <li>Délimitation et nivellement de la zone de travail.</li>
+                </ul>
+                </li>
+                <li class="mt-3"><strong>Excavation et fondation</strong>
+                <ul class="px-3" style="list-style-type: disc;">
+                    <li>Creusement des tranchées selon les dimensions définies.</li>
+                    <li>Vérification des pentes pour assurer un écoulement optimal.</li>
+                    <li>Mise en place d’une fondation stable en grave ou béton maigre pour supporter la structure.</li>
+                </ul>
+                </li>
+                <li class="mt-3"><strong>Coffrage et ferraillage</strong>
+                <ul class="px-3" style="list-style-type: disc;">
+                    <li>Installation du coffrage aux dimensions exactes des caniveaux trapézoïdaux.</li>
+                    <li>Mise en place du treillis soudé pour renforcer la structure et garantir sa résistance mécanique.</li>
+                </ul>
+                </li>
+                <li class="mt-3"><strong>Coulage du béton</strong>
+                <ul class="px-3" style="list-style-type: disc;">
+                    <li>Préparation et coulage du béton conformément aux spécifications techniques.</li>
+                    <li>Vibrage du béton pour éviter les vides et garantir une surface lisse et homogène.</li>
+                </ul>
+                </li>
+                <li class="mt-3"><strong>Finitions et vérifications</strong>
+                <ul class="px-3" style="list-style-type: disc;">
+                    <li>Retrait du coffrage après durcissement du béton.</li>
+                    <li>Réalisation des finitions et vérification de la pente et de la fonctionnalité des caniveaux.</li>
+                    <li>Nettoyage du chantier et remise en état des abords.</li>
+                </ul>
+                </li>
+            </ol>
+            <p class="mt-3">Cette approche méthodique assure la construction de caniveaux trapézoïdaux robustes, durables et fonctionnels, répondant aux besoins d’évacuation des eaux et contribuant à la prévention des inondations et de l’érosion.</p>
+            `
     },
     {
         title:'Projet 2',
         imageUrl:'https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg',
-        description:'Description du projet 2'
+        gallery:["https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
+        ],
+        description:'Description du projet 2',
+        tags:['']
     },
     {
         title:'Projet 3',
         imageUrl:'https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg',
-        description:'Description du projet 3'
+        gallery:["https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
+        ],
+        description:'Description du projet 3',
+        tags:['']
     },
     {
         title:'Projet 4',
         imageUrl:'https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg',
-        description:'Description du projet 4'
+        gallery:["https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
+        ],
+        description:'Description du projet 4',
+        tags:['']
     },
     {
         title:'Projet 5',
         imageUrl:'https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg',
-        description:'Description du projet 5'
+        gallery:["https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
+        ],
+        description:'Description du projet 5',
+        tags:['']
     },
     {
         title:'Projet 6',
         imageUrl:'https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg',
-        description:'Description du projet 6'
+        gallery:["https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
+        ],
+        description:'Description du projet 6',
+        tags:['']
     },
 ]
 

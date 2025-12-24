@@ -20,6 +20,13 @@ const Contact = ()=>{
         setError('')
         setSuccess('')
         const formData = new FormData(e.currentTarget)
+        for(const [key,value] of formData){
+            if(!value){
+                setError(`${key} est requis`)
+                setIsSending(false)
+                return
+            }
+        }
         if(!validateEmail(formData.get('email') as string)){
             setError('Invalid email')
             setIsSending(false)
@@ -57,21 +64,21 @@ const Contact = ()=>{
             </div>
             <form onSubmit={handleSubmit} ref={formRef} className="lg:w-1/2 mx-auto montserrat-regular">
                     <div className="mt-3">
-                        <label htmlFor="name">Nom:</label>
+                        <label htmlFor="nom">Nom:<span className="text-red-600">*</span></label>
                         <div className="mt-2">
-                            <input className="outline-black outline-1 rounded-md focus:outline-2 focus:outline-amber-500 w-full p-2 shadow-md shadow-gray-400 " type="text" placeholder="Votre nom" id="name" name="name" required />
+                            <input className="outline-black outline-1 rounded-md focus:outline-2 focus:outline-amber-500 w-full p-2 shadow-md shadow-gray-400 " type="text" placeholder="Votre nom" id="nom" name="nom" />
                         </div>
                     </div>
                     <div className="mt-3">
-                        <label htmlFor="email">Email:</label>
+                        <label htmlFor="email">Email:<span className="text-red-600">*</span></label>
                         <div className="mt-2">
-                            <input className="outline-black outline-1 rounded-md focus:outline-2 focus:outline-amber-500 w-full p-2 shadow-md shadow-gray-400 " type="email" placeholder="Votre email" id="email" name="email" required />
+                            <input className="outline-black outline-1 rounded-md focus:outline-2 focus:outline-amber-500 w-full p-2 shadow-md shadow-gray-400 " type="text" placeholder="Votre email" id="email" name="email"/>
                         </div>
                     </div>
                     <div className="mt-3">
-                        <label htmlFor="message">Message:</label>
+                        <label htmlFor="message">Message:<span className="text-red-600">*</span></label>
                         <div className="mt-2">
-                            <textarea className="outline-black outline-1 rounded-md focus:outline-2 focus:outline-amber-500 w-full p-2 shadow-md shadow-gray-400 " rows={5} placeholder="Votre message" id="message" name="message" required />
+                            <textarea className="outline-black outline-1 rounded-md focus:outline-2 focus:outline-amber-500 w-full p-2 shadow-md shadow-gray-400 " rows={5} placeholder="Votre message" id="message" name="message"/>
                         </div>
                     </div>
                     {error&&<div className="mt-3 bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-md shadow-md">

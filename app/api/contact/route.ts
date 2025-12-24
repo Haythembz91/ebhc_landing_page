@@ -22,10 +22,10 @@ export async function POST(req:NextRequest){
     }
     for(const [key,value] of formData){
         if(!value){
-            return NextResponse.json({error:`${key} is required`},{status:422})
+            return NextResponse.json({error:`${key} est requis`},{status:422})
         }
     }
-    const name = formData.get('name') as string
+    const name = formData.get('nom') as string
     const email = formData.get('email') as string
     const message = formData.get('message') as string
     if(!isEmailValid(email)){
@@ -48,6 +48,6 @@ export async function POST(req:NextRequest){
         return NextResponse.json({ message: 'Envoi effectué'});
     }catch(e){
         console.log(e)
-        return NextResponse.json({ error: 'Failed to send email' }, { status: 500 });
+        return NextResponse.json({ error: 'Une erreur est survenue' }, { status: 500 });
     }
 }
