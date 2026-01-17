@@ -21,11 +21,11 @@ const Home = ()=>{
         <section className='pt-20'>
             <h1 className='text-2xl font-bold p-3 poppins-regular'>{project.title}</h1>
             <div className='lg:grid lg:grid-cols-2 p-3'>
-                <div>
-                    <Swiper slidesPerView={1} spaceBetween={30} modules={[Pagination, Autoplay, Navigation]} navigation autoplay={{delay: 3000}} pagination={{ clickable: true }} loop={true}>
+                <div className=''>
+                    <Swiper className='h-[90vh] w-full' slidesPerView={1} spaceBetween={30} modules={[Pagination, Autoplay, Navigation]} navigation autoplay={{delay: 3000}} pagination={{ clickable: true }} loop={true}>
                         {project.gallery?.map((imageUrl,index)=>{
                             return(
-                                <SwiperSlide key={index}><img src={imageUrl}></img></SwiperSlide>
+                                <SwiperSlide key={index}><img className='w-full h-full object-contain' src={imageUrl}></img></SwiperSlide>
                             )
                         })}  
                     </Swiper>

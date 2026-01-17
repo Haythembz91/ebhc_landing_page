@@ -125,59 +125,24 @@ export const projects = [
             `
     },
     {
-        title:'Projet 2',
-        imageUrl:'https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg',
-        gallery:["https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
-            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
-            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
-            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
+        title:'Portail Coulissant Industriel pour Ecole Primaire ',
+        imageUrl:'https://res.cloudinary.com/dmgfsayir/image/upload/v1768669349/4_yucq8g.jpg',
+        gallery:["https://res.cloudinary.com/dmgfsayir/image/upload/v1768669453/3_sq8gyv.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1768669441/2_qtnhg0.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1768669372/Untitled_mteskk.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1768669349/4_yucq8g.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1768669347/6_cnn6ys.jpg",
+            "https://res.cloudinary.com/dmgfsayir/image/upload/v1768669348/5_agngj4.jpg"
         ],
-        description:'Description du projet 2',
-        tags:['']
-    },
-    {
-        title:'Projet 3',
-        imageUrl:'https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg',
-        gallery:["https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
-            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
-            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
-            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
-        ],
-        description:'Description du projet 3',
-        tags:['']
-    },
-    {
-        title:'Projet 4',
-        imageUrl:'https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg',
-        gallery:["https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
-            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
-            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
-            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
-        ],
-        description:'Description du projet 4',
-        tags:['']
-    },
-    {
-        title:'Projet 5',
-        imageUrl:'https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg',
-        gallery:["https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
-            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
-            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
-            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
-        ],
-        description:'Description du projet 5',
-        tags:['']
-    },
-    {
-        title:'Projet 6',
-        imageUrl:'https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg',
-        gallery:["https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
-            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
-            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
-            "https://res.cloudinary.com/dmgfsayir/image/upload/v1759972469/1_mapwbh.jpg",
-        ],
-        description:'Description du projet 6',
-        tags:['']
+        description:`<h3>Portail Coulissant Industriel pour Établissement Scolaire</h3>
+            <p>Pour ce projet réalisé dans une école primaire, nous avons conçu et installé une porte coulissante robuste en fer carré. Alliant sécurité périmétrique et fluidité de mouvement, cette structure est spécialement étudiée pour un usage intensif.</p>
+            <ul class="px-3 mt-3" style="list-style-type: disc">
+            <li><strong>Matériaux :</strong> Profilés en fer carré haute résistance.</li>
+            <li><strong>Finition :</strong> Traitement anticorrosion et peinture époxy pour une longévité maximale face aux intempéries.</li>
+            <li><strong>Sécurité :</strong> Rail de guidage au sol renforcé et système anti-déraillement pour garantir la sécurité des enfants et du personnel.</li>
+            <li><strong>Design :</strong> Un style sobre et moderne qui s'intègre parfaitement à l'architecture éducative.</li>
+            </ul>`,
+        tags: ["Menuiserie Métallique", "Portail Coulissant", "Fer Carré", "Anti-corrosion"]
     },
 ]
 
